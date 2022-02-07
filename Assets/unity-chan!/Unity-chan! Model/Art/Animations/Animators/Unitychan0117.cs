@@ -17,7 +17,7 @@ public class Unitychan0117 : MonoBehaviour
 
         if (Input.GetKey(KeyCode.RightArrow)){
 
-            transform.Rotate(0, 5, 0);
+           transform.Rotate(0, 5, 0);
             ani.SetBool("run", true);
         }
 
@@ -45,7 +45,7 @@ public class Unitychan0117 : MonoBehaviour
         }
         else
         {
-            ani.SetBool("run", false);
+            //ani.SetBool("run", false);
         }
 
         if (Input.GetKeyDown(KeyCode.Space)){
