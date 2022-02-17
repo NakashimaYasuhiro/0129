@@ -17,7 +17,7 @@ public class Unitychan0117 : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        bool isRunning=false;
+        bool isRunning= default(bool);
 
         if (Input.GetKey(KeyCode.RightArrow)){
 
