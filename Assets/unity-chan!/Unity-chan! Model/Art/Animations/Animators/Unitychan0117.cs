@@ -21,19 +21,19 @@ public class Unitychan0117 : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.RightArrow)){
 
-           transform.Rotate(0, 1, 0);
+           transform.Rotate(0, 10, 0);
             isRunning = true;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow)){
 
-            transform.Rotate(0, -1, 0);
+            transform.Rotate(0, -10, 0);
             isRunning = true;
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
         {   
-            transform.position += transform.forward * 0.01f;
+            transform.position += transform.forward * 0.1f;
             isRunning = true;
         }
 
